@@ -1,0 +1,1853 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyen Van A",
+      "email": "a@gmail.com",
+      "password": "123456",
+      "role": "customer",
+      "phone": "0909123456",
+      "gender": "Nam"
+    },
+    {
+      "id": "2",
+      "name": "Le Thi B",
+      "email": "b@gmail.com",
+      "password": "123456",
+      "role": "Admin",
+      "phone": "0909123457",
+      "gender": "Nữ"
+    },
+    {
+      "id": "100",
+      "name": "Huyen",
+      "email": "huyen@example.com",
+      "password": "12345678",
+      "role": "Admin",
+      "phone": "09xxxxxxxx",
+      "gender": "Nữ"
+    },
+    {
+      "name": "Le Quang Dung",
+      "email": "dungth24@gmail.com",
+      "phone": "3124329432",
+      "gender": "male",
+      "extra": "",
+      "password": "123456",
+      "id": "1754935140917",
+      "role": "customer"
+    },
+    {
+      "name": "Anh Quan",
+      "email": "quan@nigga.com",
+      "phone": "414324242",
+      "gender": "male",
+      "extra": "",
+      "password": "123456",
+      "id": "1754935225802",
+      "role": "customer"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Quán Gánh Miền Tây",
+      "description": "Chuyên bún nước lèo, bánh canh cua, lẩu mắm",
+      "address": "345 Võ Văn Kiệt, Quận 5, TP.HCM",
+      "type": "Quán ăn",
+      "ownerId": 1,
+      "image": "https://noithatkendesign.vn/storage/app/media/thiet-ke-nha-hang-hai-mien-tay-cau-giay-1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Nhà Hàng Biển Đông",
+      "description": "Ẩm thực hải sản tươi sống, phở hải sản đặc biệt",
+      "address": "78 Nguyễn Huệ, Quận 1, TP.HCM",
+      "type": "Nhà hàng",
+      "ownerId": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtbAGT7JrVSy-jjaZT1I0C77TLzmb1N-X9fQ&s"
+    },
+    {
+      "id": "3",
+      "name": "Quán Bụi Sài Gòn",
+      "description": "Cơm gà Hội An, bánh mì thịt nướng, trà đá muối",
+      "address": "102/4 Bùi Viện, Quận 1, TP.HCM",
+      "type": "Quán ăn",
+      "ownerId": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlha3cWN_MmNwcbjidhgeYgHbp1hrJHwPmiw&s"
+    },
+    {
+      "id": "4",
+      "name": "Nhà Hàng Hương Sen",
+      "description": "Ẩm thực chay thuần chay, cháo sen, nem chay giòn",
+      "address": "99 Cách Mạng Tháng Tám, Quận 3, TP.HCM",
+      "type": "Nhà hàng",
+      "ownerId": 4,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRir4FoNF2SP5qDl_ouksaFR_Enap2XnIU6XQ&s"
+    },
+    {
+      "id": "5",
+      "name": "Quán Cô Ba",
+      "description": "Bánh xèo miền Nam, gỏi cuốn tôm thịt, nước mía lau",
+      "address": "234 Lý Thường Kiệt, Quận 11, TP.HCM",
+      "type": "Quán ăn",
+      "ownerId": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoE0qsV3TzX2bezvGsO1_7kfHF9OnP2Ablbw&s"
+    },
+    {
+      "id": "6",
+      "name": "Nhà Hàng Gia Lai",
+      "description": "Bún chả nướng, cơm lam, thịt heo rừng nướng",
+      "address": "56 Lê Lợi, Quận 1, TP.HCM",
+      "type": "Nhà hàng",
+      "ownerId": 6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8GNp_q36BwYnNzxNDCQbh267cSITpOTjbA&s"
+    },
+    {
+      "id": "7",
+      "name": "Quán Mì Cay Seoul",
+      "description": "Mì cay Hàn Quốc, tokbokki, gà chiên xù sốt cay",
+      "address": "89 Nguyễn Trãi, Quận 5, TP.HCM",
+      "type": "Quán ăn",
+      "ownerId": 7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0C0Gu7bpFZGeXiiHGP9sSGgCOMsTcH3nY5U9OYsGGUtkLB6pvmULmQ_50tYV3QMUgtmk&usqp=CAU"
+    },
+    {
+      "id": "8",
+      "name": "Nhà Hàng Thiên Ân",
+      "description": "Lẩu thái chua cay, cơm tấm sườn nướng, sinh tố thập cẩm",
+      "address": "123 Trần Hưng Đạo, Quận 5, TP.HCM",
+      "type": "Nhà hàng",
+      "ownerId": 8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvlGUa7HeUAEq6yeKHnR5_1ixz8ldlRDuQwA&s"
+    },
+    {
+      "id": "9",
+      "name": "Quán Ngon Quê",
+      "description": "Bánh cuốn nóng, cháo lòng, nem nướng Nha Trang",
+      "address": "45 Nguyễn Văn Cừ, Quận Bình Thạnh, TP.HCM",
+      "type": "Quán ăn",
+      "ownerId": 9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVsL33xxLH3962adnS-zbV8onAh7bWXzXBdQ&s"
+    },
+    {
+      "id": "10",
+      "name": "Nhà Hàng Sukuna",
+      "description": "Sushi tươi ngon, mì udon, tempura rau củ",
+      "address": "67 Hai Bà Trưng, Quận 1, TP.HCM",
+      "type": "Nhà hàng",
+      "ownerId": 10,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvXqSM0VvLp56LEp2JSwLf1kY5CNaOqKFlFA&s"
+    },
+    {
+      "id": "5005",
+      "name": "Ba râu",
+      "description": "dsasdadsadsadsa",
+      "address": "eqwwqeqeqeqweq",
+      "type": "Nhà hàng",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStGcFX3NAexS1uHEp07eN8JOls-AC0rCe3Zw&s"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "2",
+      "name": "Bún Chả",
+      "price": 50000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Chả nướng, bún, nước mắm pha.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": "3",
+      "name": "Chả Cá Lã Vọng",
+      "price": 60000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Cá lăng, thì là, hành nướng.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://cdn.xanhsm.com/2025/01/20fafb8e-cha-ca-la-vong-hcm-1.jpg",
+      "rating": 4.9
+    },
+    {
+      "id": "4",
+      "name": "Bánh Cuốn",
+      "price": 30000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh cuốn nóng, chả lụa, nước mắm.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://bizweb.dktcdn.net/100/479/802/files/banh-cuon-ha-noi.jpg?v=1710813323981",
+      "rating": 4.6
+    },
+    {
+      "id": "5",
+      "name": "Xôi Xéo",
+      "price": 25000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Xôi đậu xanh, hành phi, ruốc.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://i-giadinh.vnecdn.net/2024/10/04/Bc6Thnhphm16-1728034310-5421-1728034330.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "6",
+      "name": "Bún Riêu Cua",
+      "price": 40000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Riêu cua, đậu phụ, cà chua.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://i-dulich.vnecdn.net/2016/04/28/Anh1-2283-1461811111.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": "7",
+      "name": "Chả Lụa",
+      "price": 15000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Chả lụa tự làm, ăn kèm rau sống.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9fKjmCuWSh8fEmgfQI4JGyiGsXm5jgyagpIv1TSD0GLmQstItq7fbINbLuFFIDQZVX0I&usqp=CAU",
+      "rating": 4.4
+    },
+    {
+      "id": "8",
+      "name": "Nem Cũ",
+      "price": 20000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Nem rán giòn, chấm nước mắm chua ngọt.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6m_5vsLcet6W4TOY9LxaERM7uJJ3zG4qJ1w&s",
+      "rating": 4.3
+    },
+    {
+      "id": "9",
+      "name": "Canh Măng",
+      "price": 30000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Măng tươi, thịt gà, hành lá.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQebPSs7onRBC-e27Qq2N-alLBp7zNn-vz_qw&s",
+      "rating": 4.6
+    },
+    {
+      "id": "10",
+      "name": "Cơm Rang Dưa Bò",
+      "price": 45000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Cơm rang giòn, dưa chua, thịt bò.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://i-giadinh.vnecdn.net/2023/10/17/Buoc-8-Thanh-pham-1-8-2323-1697527935.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "11",
+      "name": "Bún Đậu Mắm Tôm",
+      "price": 35000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bún, đậu rán, chả cốm, mắm tôm.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://bizweb.dktcdn.net/100/514/078/products/chuyen-de-bun-dau-man-tom-rosa-bien-hoa-dong-nai-10-1714982875768-071b3ef1-f2ab-4f58-9725-6c92fc74a290-eb47202d-864b-400b-bffb-ae095ddcfbdd.jpg?v=1716988391733",
+      "rating": 4.8
+    },
+    {
+      "id": "12",
+      "name": "Xôi Gà",
+      "price": 30000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Xôi nếp, gà xé, hành phi.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://file.hstatic.net/200000700229/article/xoi-ga-xe-1_6ae68f0c65d94664a8f954fe239e922a.jpg",
+      "rating": 4.4
+    },
+    {
+      "id": "13",
+      "name": "Bánh Tôm Hồ Tây",
+      "price": 40000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Tôm tươi, vỏ bánh giòn rụm.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://www.huongnghiepaau.com/wp-content/uploads/2019/10/banh-tom-ho-tay-hap-dan.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": "14",
+      "name": "Cháo Lòng",
+      "price": 35000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Cháo nóng, lòng heo, hành rau.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/chao_long_mien_tay_7b68d2cae5.jpg",
+      "rating": 4.3
+    },
+    {
+      "id": "15",
+      "name": "Bún Thang",
+      "price": 55000,
+      "category": "Bắc",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Sợi bún nhỏ, gà, trứng, tôm khô.",
+      "restaurantId": [
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://i-giadinh.vnecdn.net/2023/02/02/Thanh-pham-1-1-5769-1675329999.jpg",
+      "rating": 4.9
+    },
+    {
+      "id": "16",
+      "name": "Bún Bò Huế",
+      "price": 50000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Cay nồng, chả cua, giò heo.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdk481V5UXelmRLkz7xXjYh2BnJhpHasD2TQ&s",
+      "rating": 4.7
+    },
+    {
+      "id": "17",
+      "name": "Mì Quảng",
+      "price": 40000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Sợi mì vàng, tôm, thịt, rau sống.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD9VMaY8G-7Cjprjj8EvsVBxYr7a-OMCVOFg&s",
+      "rating": 4.6
+    },
+    {
+      "id": "18",
+      "name": "Cao Lầu",
+      "price": 45000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Sợi dai, thịt heo, tôm, rau sống.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://i-giadinh.vnecdn.net/2023/03/13/Buoc-7-Thanh-pham-1-7-9577-1678700377.jpg",
+      "rating": 4.8
+    },
+    {
+      "id": "19",
+      "name": "Bánh Xèo",
+      "price": 35000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh giòn, nhân tôm thịt, ăn kèm rau.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW4gHNfuPJPSxU6qHvxC6wGfpwtcBk5Xh8LA&s",
+      "rating": 4.5
+    },
+    {
+      "id": "20",
+      "name": "Bún Thịt Nướng",
+      "price": 40000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Thịt nướng, bún, nước mắm chua ngọt.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://i.ytimg.com/vi/emlDazeUIMM/maxresdefault.jpg",
+      "rating": 4.4
+    },
+    {
+      "id": "21",
+      "name": "Cơm Hến",
+      "price": 30000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Cơm trắng, hến xào, rau sống.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/172820/Originals/com%20hen_hinh%201.jpg",
+      "rating": 4.3
+    },
+    {
+      "id": "22",
+      "name": "Bánh Canh",
+      "price": 35000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Sợi dai, nước dùng đậm đà.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVv8hArSlVhW85fIqUHy14OQ04TlJhJw0slA&s",
+      "rating": 4.6
+    },
+    {
+      "id": "23",
+      "name": "Bánh Bèo",
+      "price": 20000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh nhỏ, chả, tôm, nước mắm.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsZ-hyD_nD1TYrJK3-mXcOMF-bNNmr8IA4aw&s",
+      "rating": 4.2
+    },
+    {
+      "id": "24",
+      "name": "Bánh Nậm",
+      "price": 25000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh lá, nhân tôm thịt.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://cdn.tgdd.vn/2021/11/CookDish/banh-nam-la-banh-gi-banh-nam-lam-tu-bot-gi-va-nhung-nguyen-avt-1200x676.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "25",
+      "name": "Bánh Flan",
+      "price": 15000,
+      "category": "Trung",
+      "type": "tráng miệng",
+      "isVegetarian": true,
+      "description": "Flan trứng, caramen ngọt.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://i.ytimg.com/vi/cZI5Uv8y3zs/sddefault.jpg",
+      "rating": 4.4
+    },
+    {
+      "id": "26",
+      "name": "Chè Hạt Sen",
+      "price": 20000,
+      "category": "Trung",
+      "type": "chay",
+      "isVegetarian": true,
+      "description": "Chè ngọt, hạt sen bùi.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkbtZVPH0gSoaGUtRR0cDXYLsXTmoZvFdzBw&s",
+      "rating": 4.6
+    },
+    {
+      "id": "27",
+      "name": "Bánh Tổ",
+      "price": 18000,
+      "category": "Trung",
+      "type": "chay",
+      "isVegetarian": true,
+      "description": "Bánh nếp dẻo, đường nâu.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-YxT-jiTQO3ScKCDWWuutkd9ImgUGo1q6qQ&s",
+      "rating": 4.3
+    },
+    {
+      "id": "28",
+      "name": "Bánh Ướt",
+      "price": 22000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh ướt, thịt heo, nước mắm.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://thanhnien.mediacdn.vn/Uploaded/2014/saigonamthuc.thanhnien.com.vn/Pictures201312/Tan_Nhan/Banhuotbahuyenthanhquan.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "29",
+      "name": "Gỏi Cuốn",
+      "price": 25000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Tôm, thịt, bún, rau sống.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Summer_roll.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": "30",
+      "name": "Bún Riêu",
+      "price": 40000,
+      "category": "Trung",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Riêu cua, đậu, cà chua.",
+      "restaurantId": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://i-dulich.vnecdn.net/2016/04/28/Anh1-2283-1461811111.jpg",
+      "rating": 4.6
+    },
+    {
+      "id": "31",
+      "name": "Cơm Tấm Sài Gòn",
+      "price": 35000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Sườn nướng, bì, chả, đồ chua.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://static.vinwonders.com/production/com-tam-sai-gon-banner.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": "32",
+      "name": "Hủ Tiếu Nam Vang",
+      "price": 38000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Sợi dai, nước dùng ngọt thanh.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVV1POzVrY4BDwScGgZvJAnD6UA9DfK2M9Q&s",
+      "rating": 4.6
+    },
+    {
+      "id": "33",
+      "name": "Bún Mắm",
+      "price": 45000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bún, mắm cá linh, thịt heo, rau.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://cdn.tgdd.vn/2021/09/CookRecipe/GalleryStep/thanh-pham-1618.jpg",
+      "rating": 4.8
+    },
+    {
+      "id": "34",
+      "name": "Cá Lóc Nấu Chuối",
+      "price": 60000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Cá lóc, chuối xanh, rau om.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://i-giadinh.vnecdn.net/2021/10/08/canauam-1633671940-8477-1633671964.jpg",
+      "rating": 4.9
+    },
+    {
+      "id": "35",
+      "name": "Canh Chua Cá Hú",
+      "price": 40000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Canh chua, cá hú, đậu bắp, thơm.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://cdn.tgdd.vn/2020/12/CookProduct/canh-ca-hu-1200x676.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "36",
+      "name": "Lẩu Mắm",
+      "price": 120000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Lẩu mắm cá linh, hải sản, rau.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://i.ytimg.com/vi/3goLsgW6Nfk/maxresdefault.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": "37",
+      "name": "Bánh Xoài",
+      "price": 15000,
+      "category": "Nam",
+      "type": "chay",
+      "isVegetarian": true,
+      "description": "Bánh tráng xoài, dừa, đường.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://cdn.tgdd.vn/2021/07/CookProduct/thum1200-1200x676-11.jpg",
+      "rating": 4.4
+    },
+    {
+      "id": "38",
+      "name": "Bánh Pía",
+      "price": 20000,
+      "category": "Nam",
+      "type": "chay",
+      "isVegetarian": true,
+      "description": "Bánh ngọt, nhân đậu xanh, sầu riêng.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRASbljiA0B6UwG-Mp5KWcSIRR3TQesPpYuCg&s",
+      "rating": 4.6
+    },
+    {
+      "id": "39",
+      "name": "Chè Chuối",
+      "price": 18000,
+      "category": "Nam",
+      "type": "chay",
+      "isVegetarian": true,
+      "description": "Chè chuối, nước cốt dừa.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/170272/Originals/che-chuoi-chung-6.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "40",
+      "name": "Bánh Tét",
+      "price": 25000,
+      "category": "Nam",
+      "type": "chay",
+      "isVegetarian": true,
+      "description": "Bánh nếp, đậu xanh, không nhân mặn.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUXBl-q9Lng9rkJK7pA_wJqluAHS3hQ0thzg&s",
+      "rating": 4.3
+    },
+    {
+      "id": "41",
+      "name": "Bánh Tráng Trộn",
+      "price": 20000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh tráng, trứng cút, khô bò, xoài.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://i.ytimg.com/vi/dZwJgX-IcH8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC38hYKpTlqHzCnJl-zQ7256hCeQQ",
+      "rating": 4.7
+    },
+    {
+      "id": "42",
+      "name": "Bánh Tráng Nướng",
+      "price": 22000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh tráng nướng, trứng, xúc xích.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "Bánh Tráng Nướng",
+      "rating": 4.8
+    },
+    {
+      "id": "43",
+      "name": "Gỏi Sầu Dừa",
+      "price": 35000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Gỏi sầu dừa, tôm, thịt, rau sống.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://cdn.tgdd.vn/2021/10/CookRecipe/Avatar/goi-cu-hu-dua-thumbnail.jpg",
+      "rating": 4.6
+    },
+    {
+      "id": "44",
+      "name": "Bún Cá",
+      "price": 42000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bún, cá lóc, nước dùng chua ngọt.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://cdn.tgdd.vn/Files/2020/04/03/1246339/cach-nau-bun-ca-ha-noi-thom-ngon-chuan-vi-khong-ta-13.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "45",
+      "name": "Cơm Gà Xối Mỡ",
+      "price": 48000,
+      "category": "Nam",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Cơm gà, da giòn, mỡ hành.",
+      "restaurantId": [
+        "1",
+        "3",
+        "5",
+        "9"
+      ],
+      "available": true,
+      "image": "https://media-cdn-v2.laodong.vn/storage/newsportal/2024/7/27/1372223/Com-Ga-Xoi-Mo-01.jpg",
+      "rating": 4.9
+    },
+    {
+      "id": "46",
+      "name": "Khoai Tây Chiên",
+      "price": 25000,
+      "category": "Đồ ăn vặt",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Giòn tan, ăn kèm tương ớt.",
+      "restaurantId": [
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2023_9_28_638315154313184024_cach-lam-khoai-tay-chien-1.JPG",
+      "rating": 4.4
+    },
+    {
+      "id": "47",
+      "name": "Gà Rán",
+      "price": 35000,
+      "category": "Đồ ăn vặt",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Gà giòn, sốt mật ong.",
+      "restaurantId": [
+        "6",
+        "8"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmpe5zySZPMsTlnKscJr0fnJrmsikF-uA9Ug&s",
+      "rating": 4.6
+    },
+    {
+      "id": "48",
+      "name": "Nước Ngọt",
+      "price": 15000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Coca, Pepsi, 7Up.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRdcCZuSLaqPzhr51ahABxHBdl3ztL3P9AIQ&s",
+      "rating": 4.3
+    },
+    {
+      "id": "49",
+      "name": "Sinh Tố Bơ",
+      "price": 25000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Sinh tố bơ thơm ngậy.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://raumabagia.com/upload/post/avt-24-3321.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": "50",
+      "name": "Sinh Tố Dưa Hấu",
+      "price": 22000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Sinh tố mát lạnh.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://tiki.vn/blog/wp-content/uploads/2023/04/tAiZOBrmP19nEPLWau6lis-EUlmwr-PI9O74GKJ3rJr-kzmr1Nu48ixm775rzrrRNfY19JxetrXyEsfii409UFJ3pI9RrrkLP2U1HuQx6-trSe4qP_DNW-GI8qD1TgnZlRcltsS1HBPv5p74lrA25v4.png",
+      "rating": 4.5
+    },
+    {
+      "id": "51",
+      "name": "Trà Sữa",
+      "price": 30000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Trà sữa trân châu.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://cdn.nguyenkimmall.com/images/companies/_1/tin-tuc/kinh-nghiem-meo-hay/n%E1%BA%A5u%20%C4%83n/hong-tra-sua-5.jpg.jpg",
+      "rating": 4.8
+    },
+    {
+      "id": "52",
+      "name": "Bánh Gối",
+      "price": 20000,
+      "category": "Đồ ăn vặt",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh rán, nhân thịt.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoNr5VJbMyDXug0LsKEcpwGCSQHXXpeyubYg&s",
+      "rating": 4.2
+    },
+    {
+      "id": "53",
+      "name": "Bánh Căn",
+      "price": 25000,
+      "category": "Đồ ăn vặt",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh nướng, trứng, chả.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdmOHVvy_cNWRTHHLDK27DX8K5Zq1pAhBYug&s",
+      "rating": 4.4
+    },
+    {
+      "id": "54",
+      "name": "Bánh Tráng Cuốn",
+      "price": 18000,
+      "category": "Đồ ăn vặt",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh tráng, rau, chả, nước mắm.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://tiki.vn/blog/wp-content/uploads/2023/07/banh-trang-cuon-thumbnail.jpg",
+      "rating": 4.3
+    },
+    {
+      "id": "55",
+      "name": "Nước Mía",
+      "price": 15000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Nước mía tươi, đá.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://cdn.giaoducthoidai.vn/images/34cb6da16c9af561117de12f7776d929d9975fa0aeccb1af3d7a4ce79798ce456fa4d160e6fef620694700b1edf552ad/nuoc-mia.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "56",
+      "name": "Sinh Tố Xoài",
+      "price": 25000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Sinh tố xoài chín.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://dayphache.edu.vn/wp-content/uploads/2016/02/cach-lam-sinh-to-xoai-sua-dac.jpg",
+      "rating": 4.6
+    },
+    {
+      "id": "57",
+      "name": "Trà Đào",
+      "price": 28000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Trà đào cam sả.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://cdn.eva.vn/upload/3-2019/images/2019-07-03/tra-dao-1562126967-424-width800height530.jpg",
+      "rating": 4.7
+    },
+    {
+      "id": "58",
+      "name": "Cà Phê Sữa Đá",
+      "price": 20000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Cà phê robusta, sữa đặc.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVC3guagIUew_u786gRtrAcVTyJApl4nMgrA&s",
+      "rating": 4.8
+    },
+    {
+      "id": "59",
+      "name": "Bánh Bao",
+      "price": 15000,
+      "category": "Đồ ăn vặt",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh bao nhân thịt.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2024_4_20_638492065959168047_hap-banh-bao-trong-bao-lau-avt.jpg",
+      "rating": 4.1
+    },
+    {
+      "id": "60",
+      "name": "Bánh Mì Que",
+      "price": 10000,
+      "category": "Đồ ăn vặt",
+      "type": "mặn",
+      "isVegetarian": false,
+      "description": "Bánh mì nhỏ, chấm sốt.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://bizweb.dktcdn.net/100/478/273/products/banh-mi-que-hai-phong-gion-beo-ngay.jpg?v=1717837688343",
+      "rating": 4.2
+    },
+    {
+      "id": "61",
+      "name": "Sinh Tố Dứa",
+      "price": 24000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Sinh tố thơm, mát.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2023_10_30_638342642489945271_sinh-to-dua.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "62",
+      "name": "Trà Sữa Matcha",
+      "price": 32000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Trà xanh Nhật, trân châu.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYT3xpFi_0M7RkNJuhwWbLKtuu-aq9MVwYxg&s",
+      "rating": 4.9
+    },
+    {
+      "id": "63",
+      "name": "Sinh Tố Dâu",
+      "price": 26000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Sinh tố dâu tây.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZmLK91YL6YotUllRrhS_XcP3tYTUspDe54g&s",
+      "rating": 4.7
+    },
+    {
+      "id": "64",
+      "name": "Nước Ép Cam",
+      "price": 20000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Cam vắt nguyên chất.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7fDYXsCbjLpG9jWnYXmyM0avOT1fpGZh-PQ&s",
+      "rating": 4.6
+    },
+    {
+      "id": "65",
+      "name": "Sinh Tố Việt Quất",
+      "price": 28000,
+      "category": "Nước uống",
+      "type": "nước",
+      "isVegetarian": true,
+      "description": "Sinh tố chua ngọt.",
+      "restaurantId": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "available": true,
+      "image": "https://sieuthimaycaphe.vn/wp-content/uploads/2021/09/sinh-to-viet-quat.jpg",
+      "rating": 4.8
+    },
+    {
+      "id": "bbfb",
+      "name": "Gà Rán",
+      "price": 100000,
+      "category": "Food",
+      "description": "",
+      "image": "https://garanfkt.vn/wp-content/uploads/2024/12/6.png",
+      "available": true,
+      "region": "Bắc",
+      "restaurantId": "1"
+    },
+    {
+      "id": "2ba3",
+      "name": "pizza",
+      "price": 200000,
+      "category": "food",
+      "description": "",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/960px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+      "available": true,
+      "region": "Trung",
+      "restaurantId": "5"
+    },
+    {
+      "id": "bcb8",
+      "name": "gà viên",
+      "price": 20000,
+      "category": "food",
+      "type": "food",
+      "description": "",
+      "image": "https://giochabanhmi.com/upload/images/ga-vien-lac-pho-mai.jpg",
+      "available": true,
+      "region": "Trung",
+      "restaurantIds": [
+        "2"
+      ],
+      "restaurantId": [
+        "2"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "1754818487860",
+      "userId": 1,
+      "items": [
+        {
+          "id": "2",
+          "name": "Bún Chả",
+          "price": 50000,
+          "quantity": 2,
+          "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Chả Cá Lã Vọng",
+          "price": 60000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/20fafb8e-cha-ca-la-vong-hcm-1.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 112000,
+      "createdAt": "2025-08-10T09:34:47.861Z"
+    },
+    {
+      "id": "1754818508604",
+      "userId": 1,
+      "items": [
+        {
+          "id": "2",
+          "name": "Bún Chả",
+          "price": 50000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 35000,
+      "createdAt": "2025-08-10T09:35:08.604Z"
+    },
+    {
+      "id": "1754818573304",
+      "userId": 1,
+      "items": [
+        {
+          "id": "2",
+          "name": "Bún Chả",
+          "price": 50000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 35000,
+      "createdAt": "2025-08-10T09:36:13.304Z"
+    },
+    {
+      "id": "1754819298645",
+      "userId": 1,
+      "items": [
+        {
+          "id": "21",
+          "name": "Cơm Hến",
+          "price": 30000,
+          "quantity": 1,
+          "image": "https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/172820/Originals/com%20hen_hinh%201.jpg",
+          "restaurantId": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 21000,
+      "createdAt": "2025-08-10T09:48:18.645Z"
+    },
+    {
+      "id": "1754819605451",
+      "userId": 1,
+      "items": [
+        {
+          "id": "1",
+          "name": "Phở Bò Hà Nội",
+          "price": 45000,
+          "quantity": 1,
+          "image": "https://bizweb.dktcdn.net/thumb/grande/100/458/718/articles/pho-bo.jpg?v=1697421530047",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 31500,
+      "createdAt": "2025-08-10T09:53:25.451Z"
+    },
+    {
+      "id": "1754819785634",
+      "userId": 1,
+      "items": [
+        {
+          "id": "26",
+          "name": "Chè Hạt Sen",
+          "price": 20000,
+          "quantity": 1,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkbtZVPH0gSoaGUtRR0cDXYLsXTmoZvFdzBw&s",
+          "restaurantId": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 14000,
+      "createdAt": "2025-08-10T09:56:25.634Z"
+    },
+    {
+      "id": "1754819793049",
+      "userId": 1,
+      "items": [
+        {
+          "id": "2",
+          "name": "Bún Chả",
+          "price": 50000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 35000,
+      "createdAt": "2025-08-10T09:56:33.049Z"
+    },
+    {
+      "id": "1754819806415",
+      "userId": 1,
+      "items": [
+        {
+          "id": "2",
+          "name": "Bún Chả",
+          "price": 50000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 35000,
+      "createdAt": "2025-08-10T09:56:46.415Z"
+    },
+    {
+      "id": "1754820035240",
+      "userId": 1,
+      "items": [
+        {
+          "id": "2",
+          "name": "Bún Chả",
+          "price": 50000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 35000,
+      "createdAt": "2025-08-10T10:00:35.240Z"
+    },
+    {
+      "id": "1754820612290",
+      "userId": 1,
+      "items": [
+        {
+          "id": "2",
+          "name": "Bún Chả",
+          "price": 50000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 35000,
+      "createdAt": "2025-08-10T10:10:12.290Z"
+    },
+    {
+      "id": "1754822194719",
+      "userId": 1,
+      "items": [
+        {
+          "id": "2",
+          "name": "Bún Chả",
+          "price": 50000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 35000,
+      "createdAt": "2025-08-10T10:36:34.719Z"
+    },
+    {
+      "id": "1754823808087",
+      "userId": "1754823761179",
+      "items": [
+        {
+          "id": "2",
+          "name": "Bún Chả",
+          "price": 50000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 35000,
+      "createdAt": "2025-08-10T11:03:28.087Z"
+    },
+    {
+      "id": "1754824885697",
+      "userId": "1754824875414",
+      "items": [
+        {
+          "id": "2",
+          "name": "Bún Chả",
+          "price": 50000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/bceca22e-bun-cha-ha-noi-o-tphcm-1-min.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 35000,
+      "createdAt": "2025-08-10T11:21:25.697Z"
+    },
+    {
+      "id": "1754831625403",
+      "userId": "100",
+      "items": [
+        {
+          "id": "3",
+          "name": "Chả Cá Lã Vọng",
+          "price": 60000,
+          "quantity": 1,
+          "image": "https://cdn.xanhsm.com/2025/01/20fafb8e-cha-ca-la-vong-hcm-1.jpg",
+          "restaurantId": [
+            "4",
+            "6",
+            "8"
+          ]
+        }
+      ],
+      "total": 42000,
+      "createdAt": "2025-08-10T13:13:45.403Z"
+    },
+    {
+      "id": "1754833431926",
+      "userId": "1754833409295",
+      "items": [
+        {
+          "id": "bbfb",
+          "name": "Gà Rán",
+          "price": 100000,
+          "quantity": 2,
+          "image": "https://garanfkt.vn/wp-content/uploads/2024/12/6.png",
+          "restaurantId": "1"
+        }
+      ],
+      "total": 140000,
+      "createdAt": "2025-08-10T13:43:51.926Z"
+    },
+    {
+      "id": "1754833488797",
+      "userId": "100",
+      "items": [
+        {
+          "id": "2ba3",
+          "name": "pizza",
+          "price": 200000,
+          "quantity": 1,
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/960px-Eq_it-na_pizza-margherita_sep2005_sml.jpg",
+          "restaurantId": "5"
+        }
+      ],
+      "total": 140000,
+      "createdAt": "2025-08-10T13:44:48.797Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "userId": 1,
+      "userName": "Nguyen Van A",
+      "dishId": 1,
+      "rating": 5,
+      "comment": "Món ngon tuyệt! Nước dùng đậm đà, giao hàng nhanh. Sẽ đặt lại!",
+      "createdAt": "2025-04-01"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "userName": "Le Thi B",
+      "dishId": 1,
+      "rating": 4,
+      "comment": "Phở chuẩn vị Hà Nội, chỉ hơi ít thịt một chút. Vẫn rất hài lòng!",
+      "createdAt": "2025-04-03"
+    },
+    {
+      "id": "96cb",
+      "userId": 1,
+      "userName": "Bạn",
+      "dishId": "2",
+      "rating": 5,
+      "comment": "sffsfds",
+      "createdAt": "2025-08-07"
+    },
+    {
+      "userId": 1,
+      "userName": "Bạn",
+      "dishId": "2",
+      "rating": 5,
+      "comment": "eqwe",
+      "createdAt": "2025-08-10",
+      "id": "pv_iiNp"
+    },
+    {
+      "id": "6967",
+      "userId": 1,
+      "userName": "Bạn",
+      "dishId": "5",
+      "rating": 5,
+      "comment": "ewqewqeq",
+      "createdAt": "2025-08-10"
+    },
+    {
+      "id": "ec6f",
+      "userId": 1,
+      "userName": "Bạn",
+      "dishId": "39",
+      "rating": 5,
+      "comment": "fsafa",
+      "createdAt": "2025-08-10"
+    },
+    {
+      "id": "4835",
+      "userId": 1,
+      "userName": "Bạn",
+      "dishId": "39",
+      "rating": 5,
+      "comment": "fsafa",
+      "createdAt": "2025-08-10"
+    },
+    {
+      "id": "11ae",
+      "userId": 1,
+      "userName": "Bạn",
+      "dishId": "2",
+      "rating": 5,
+      "comment": "fsfds",
+      "createdAt": "2025-08-10"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "17c5",
+      "title": "GIẢM 30% CHO MÓN ĂN VẶT",
+      "description": "Áp dụng cho tất cả món ăn vặt trong tuần này!"
+    }
+  ],
+  "Order": [
+    {
+      "orders": [],
+      "promotions": [],
+      "dishes": [],
+      "restaurants": [],
+      "users": [],
+      "id": "35bf"
+    }
+  ]
+}
